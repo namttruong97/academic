@@ -1,0 +1,40 @@
+.ant-typography ul li,
+.ant-typography ol li {
+  margin: 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+button,
+[type='button'],
+[type='submit'] {
+  outline: none;
+  border: none;
+}
+
+.ant-switch-checked {
+  background-color: #1890ff !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #3d5980 !important;
+  border-color: #3d5980 !important;
+}
+
+.ant-skeleton-content .ant-skeleton-paragraph > li {
+  height: 60.45px !important;
+}
+
+.ant-switch {
+  background-color: #8889909d;
+}
+
+.ant-card-body {
+  padding: unset;
+}
+
+.ant-skeleton-element {
+  width: 100%;
+}
