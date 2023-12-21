@@ -126,6 +126,7 @@ export const Author: FC<IAuthorProps> = ({ fromYear, toYear }) => {
       columns={columns}
       rowKey="id"
       onChange={handleTableChange}
+      scroll={{ x: 'max-content' }}
       pagination={{
         showSizeChanger: true,
         current: paramAuthorModel.page + 1,
